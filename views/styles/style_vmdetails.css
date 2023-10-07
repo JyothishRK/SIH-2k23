@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f0f0;
+}
+.inp {
+    display: flex;
+    align-items:end;
+    flex-direction: row-reverse;
+    height: fit-content;
+}
+.result{
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+    text-align: center;
+    text-wrap: wrap;
+}
+
+table th {
+    background-color: #f2f2f2; 
+}
+.flex-container {
+    width: auto;
+    height: auto;
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: top; */
+}
+
+.box{
+    height:20vh;
+    width:20vw;
+    padding:10px;
+    margin:10px;
+    background-color: #404142;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"],
+input[type="submit"] {
+    background-color: #404142;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #1d1e1f;
+}

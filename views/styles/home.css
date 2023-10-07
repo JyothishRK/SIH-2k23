@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #e0e0e0;
+}
+
+.file_upload {
+    text-align: center;
+    margin: 20px;
+    /* display: flex; */
+}
+
+input[type="file"] {
+    display: none; 
+}
+button[type="submit"],
+input[type="submit"] {
+    background-color: #404142;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #1d1e1f;
+}
+.custom-file-upload {
+    background-color: #404142; 
+    color: white; 
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    height: fit-content;
+}
+
+.custom-file-upload:hover {
+    background-color: #151616; 
+}
